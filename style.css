@@ -57,8 +57,10 @@ body {
   -webkit-text-stroke: 6px white;
 }
 #down-text{
-  position: relative;
-  top: -29vh;
+  position: absolute;
+  /* top: -29vh; */
+  left: 38vw;
+  top: 5vh;
   font-family: Cinema;
   font-size: 1.7vw;
 }
