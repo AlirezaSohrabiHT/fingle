@@ -1,11 +1,14 @@
 @font-face {
   font-family: 'Cinema';
-  src: url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).eot'), url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).otf') ,
-  url(assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).svg),url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf'),url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).woff'),
-  url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).woff2');
-  font-weight: normal;
-  font-style: normal;
-}
+  src: url('./assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).eot');
+  src: url('./assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).eot') format('embedded-opentype'),
+       url('./assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).woff2') format('woff2'),
+       url('./assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).woff') format('woff'),
+       url('./assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf') format('truetype'),
+       url('./assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).svg') format('svg');}
+
+
+
 
 html,body {
 
@@ -29,6 +32,7 @@ body {
   position: absolute;
   /* background: url(./assets/Fingil\ kabab\ 10.png) no-repeat left top; */
   height: 56vh;
+  width: fit-content;
   top: 10vh;
   right: 0;
   
@@ -104,6 +108,14 @@ body {
   font-family: Cinema;
   font-size: 2.9vw;
 }
+#BT-design{
+  position: absolute;
+  /* background: url(assets/material-symbols_airwave.png) no-repeat left; */
+  bottom: 0;
+  left: 46vw;
+  background-size: auto;
+  height: 10vh;
+}
 #full-text{
   margin-top: 5vh;
   text-align: center;
@@ -149,5 +161,140 @@ body {
   width: 11vw;
   height: 8vh;
 }
- 
+
+
+#Rectangle-design{
+  position: absolute;
+  bottom: 10vh;
+  left: 44vw;
+  width: 10vw;
+  height: 8vh;
+}
+#bt-text{
+  position: absolute;
+  font-family: cinema;
+  color: #000;
+  bottom: 11vh;
+  left: 44.5vw;
+  font-size: 2.3vw;
+}
+#star-desing{
+  position: absolute;
+  top: 2vh;
+  left: 36vw;
+  width: 3vw;
+}
+#star-desing2{
+  position: absolute;
+  top: 2vh;
+  left: 60vw;
+  width: 3vw;
+  rotate: 100deg;
+}
+
+@media (max-width: 800px){
+  #RT-design{
+    top: 15vh;
+    height: 25vh;
+  }
+  #RD-design{
+    top: 69vh;
+    height: 10vh;
+  }
+  #LT-design{
+    top: 15vh;
+    height: 25vh;
+  }
+  #LD-design{
+    position: absolute;
+    /* background: url(assets/material-symbols_airwave.png) no-repeat left; */
+    top: 72vh;
+    left: -5vw;
+    background-size: auto;
+    height: 10vh;
+    /* border: 2px solid black; */
+  }
+  #strok-text{
+    display: none;
+    position: absolute;
+    left: 40vw;
+    top: 20vh;
+    font-family: Cinema;
+    font-size: 5vw;
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 2vw white;
+  }
+  #down-text{
+    display: none;
+    position: relative;
+    top: 15vh;
+    /* top: -29vh; */
+    /* margin-left: 10vw; */
+    /* left: 40vw;
+    top: 17vh; */
+    font-family: Cinema;
+    font-size: 5vw;
+  }
+  #up-strok-text{
+    position: absolute;
+    left: 24vw;
+    font-family: Cinema;
+    font-size: 8vw;
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 8vw #25D398;
+  }
+  #up-text{
+    position: relative;
+    left: 24vw;
+    color: white;
+    position: absolute;
+    /* top: -29vh; */
+    /* left: 41vw;
+    top: 5vh; */
+    font-family: Cinema;
+    font-size: 8vw;
+  }
+  #BT-design{
+    position: absolute;
+    /* background: url(assets/material-symbols_airwave.png) no-repeat left; */
+    bottom: 0;
+    left: 40vw;
+    background-size: auto;
+    height: 10vh;
+  }
+  #full-text{
+    margin-top: 5vh;
+    text-align: center;
+  }
+  #Rectangle-design{
+    position: absolute;
+    bottom: 10vh;
+    left: 40vw;
+    width: 24vw;
+    height: 6vh;
+  }
+  #bt-text{
+    position: absolute;
+    font-family: cinema;
+    color: #000;
+    bottom: 11vh;
+    left: 41vw;
+    font-size: 5vw;
+  }
+  #star-desing{
+    position: absolute;
+    top: 2vh;
+    left: 16vw;
+    width: 7vw;
+  }
+  #star-desing2{
+    position: absolute;
+    top: 3vh;
+    left: 82vw;
+    width: 7vw;
+    rotate: 120deg;
+  }
+}
   
