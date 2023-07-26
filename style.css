@@ -25,6 +25,21 @@ body {
    /* width: ; */
    /* border: 2px solid black; */
 }
+#RT-design{
+  position: absolute;
+  /* background: url(./assets/Fingil\ kabab\ 10.png) no-repeat left top; */
+  height: 56vh;
+  top: 10vh;
+  right: 0;
+  
+}
+#RD-design{
+  position: absolute;
+  /* background: url(./assets/Fingil\ kabab\ 10.png) no-repeat left top; */
+  height: 20vh;
+  bottom:  10vh;
+  right: 0;
+}
 #LT-design{
   position: absolute;
   /* background: url(./assets/Fingil\ kabab\ 10.png) no-repeat left top; */
@@ -50,19 +65,44 @@ body {
   height: 20vh;
 }
 #strok-text{
+  position: absolute;
+  left: 40vw;
+  top: 20vh;
   font-family: Cinema;
-  font-size: 1.7vw;
+  font-size: 1.4vw;
   color: black;
   -webkit-text-fill-color: black;
-  -webkit-text-stroke: 6px white;
+  -webkit-text-stroke: 2vw white;
 }
 #down-text{
+  position: relative;
+  top: 15vh;
+  /* top: -29vh; */
+  /* margin-left: 10vw; */
+  /* left: 40vw;
+  top: 17vh; */
+  font-family: Cinema;
+  font-size: 1.4vw;
+}
+#up-strok-text{
+  position: absolute;
+  left: 40vw;
+  font-family: Cinema;
+  font-size: 3vw;
+  color: black;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 3vw #25D398;
+}
+#up-text{
+  position: relative;
+  left: 40vw;
+  color: white;
   position: absolute;
   /* top: -29vh; */
-  left: 38vw;
-  top: 5vh;
+  /* left: 41vw;
+  top: 5vh; */
   font-family: Cinema;
-  font-size: 1.7vw;
+  font-size: 2.9vw;
 }
 #full-text{
   margin-top: 5vh;
