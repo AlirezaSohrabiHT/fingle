@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Cinema';
+  src: url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).eot'), url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).otf') ,
+  url(assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).svg),url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf'),url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).woff'),
+  url('assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,body {
 
   height:100%;width:100% ;
@@ -5,11 +14,58 @@ html,body {
 }  
 
 body {
-  background: url(./Desktop\ -\ 5.jpg) no-repeat center center fixed;
-  background-size: 100vw 105vh;
+  background-image: linear-gradient(#FEA201,#FFA200) ;
+  background-size: 100vw 100vh;
   margin: 0;
   padding: 0 }
-
+#desing{
+   background: url(./assets/Desktop\ -\ 5.png);
+   background-size: 100vw 100vh;
+   height: 100vh;
+   /* width: ; */
+   /* border: 2px solid black; */
+}
+#LT-design{
+  position: absolute;
+  /* background: url(./assets/Fingil\ kabab\ 10.png) no-repeat left top; */
+  background-size: auto;
+  height: 56vh;
+  /* border: 2px solid black; */
+}
+#LD-design{
+  position: absolute;
+  /* background: url(assets/material-symbols_airwave.png) no-repeat left; */
+  top: 70vh;
+  left: -3vw;
+  background-size: auto;
+  height: 20vh;
+  /* border: 2px solid black; */
+}
+#LD-design-copy{
+  position: absolute;
+  /* background: url(assets/material-symbols_airwave.png) no-repeat left; */
+  top: 70vh;
+  left: 2.5vw;
+  background-size: auto;
+  height: 20vh;
+}
+#strok-text{
+  font-family: Cinema;
+  font-size: 1.7vw;
+  color: black;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 6px white;
+}
+#down-text{
+  position: relative;
+  top: -29vh;
+  font-family: Cinema;
+  font-size: 1.7vw;
+}
+#full-text{
+  margin-top: 5vh;
+  text-align: center;
+}
 #img-div{
  /* border: 2px solid black; */
  width: 28vw;
@@ -52,53 +108,4 @@ body {
   height: 8vh;
 }
  
-  @media screen and (max-width:800px) {
-    body {
-      background: url(./iPhone\ 14\ Pro\ Max\ -\ 3.jpg)no-repeat center center;
-      background-size: 100vw 100%;
-      max-height: 100%;
-      border: 1px solid black;
-      background-attachment:fixed 
-    }
-    #main-img {
-      /* background: url(./Frame\ 3\(1\).jpg) no-repeat center center; */
-      border-radius: 40px ;
-      /* background-origin: content-box; */
-      background-size: 100% 100%;
-      width: 60vw;
-      height: 48vh;
-      /* padding-bottom: 5px; */
-
-      /* background-attachment:fixed  */
-    }
-    #img-div{
- 
-      /* border: 2px solid black; */
-      width: max-content;
-      height: max-content;
-      margin-top: 24vh;
-      margin-left: 20vw;
-      
-     }
-     #btn-div{
-      /* border: 2px solid black; */
-      max-width: fit-content;
-       margin-top: 1vh; 
-      /* margin-bottom: 2vh; */
-      margin-left: 30vw;
-    }
-    #main-btn{
-      border: none;
-      outline: none;
-      text-decoration: none;
-      background: url(./Group\ 5.png);
-      background-size: 100% 100%;
-      width: 40vw;
-      height: 6vh;
-    }
-    }
-    #main-img:hover {
-    -webkit-transform:scale(1.5,1);
-    -moz-transform:scale(1.5,0.1);
-    -ms-transform:scale(1.5,1);
-    transform:scale(1.5,1.5);}
+  

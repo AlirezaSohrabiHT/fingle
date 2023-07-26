@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Cinema Font ( www.rezagraphic.ir )';
+  src: url(./Cinema+Font+%28+www.rezagraphic.ir+%29.eot);
+  src: url(./Cinema+Font+%28+www.rezagraphic.ir+%29.eot?#iefix) format('embedded-opentype'),
+       url(./Cinema+Font+%28+www.rezagraphic.ir+%29.woff) format('woff'),
+       url(./Cinema+Font+%28+www.rezagraphic.ir+%29.woff2) format('woff2'),
+       url(./Cinema+Font+%28+www.rezagraphic.ir+%29.otf) format('otf'),
+       url(./Cinema+Font+%28+www.rezagraphic.ir+%29.svg#Cinema%20Font%20%28%20www.rezagraphic.ir%20%29) format('svg'),
+       url(./Cinema+Font+%28+www.rezagraphic.ir+%29.ttf) format('truetype');
+}
