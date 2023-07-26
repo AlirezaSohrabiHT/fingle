@@ -100,6 +100,8 @@ body {
   left: 47vw;
   background-size: auto;
   height: 10vh;
+  
+  
 }
 #full-text{
   margin-top: 4vh;
@@ -157,6 +159,7 @@ iframe img{
   left: 42vw;
   width: 14vw;
   height: 8vh;
+  border-radius: 25px;
 }
 #bt-text{
   position: absolute;
@@ -292,6 +295,8 @@ iframe img{
     left: 31vw;
     width: 38vw;
     height: 6vh;
+    border-radius: 25px;
+  box-shadow: 4px 4px;
   }
   #bt-text{
     position: absolute;
