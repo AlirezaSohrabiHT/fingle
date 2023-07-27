@@ -269,12 +269,12 @@ body {
     /* size: 100% 100%; */
     position: absolute;
     top: 23vh;
-    left: 17vw;
+    left: 19vw;
     /* border-radius: 54px ; */
     background-origin: content-box;
     /* padding-bottom: 10px; */
     width: 63vw;
-    height: 49vh;
+    height: 46vh;
     /* overflow: hidden; */
     border: none;
     outline: none;
@@ -351,7 +351,7 @@ body {
   #BT-design{
     position: absolute;
     bottom: 0;
-    left: 34vw;
+    left: 36vw;
     background-size: auto;
     height: 10vh;
   }
