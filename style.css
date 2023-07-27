@@ -362,7 +362,7 @@ body {
   #Rectangle-design{
     position: absolute;
     bottom: 14vh;
-    left: 27vw;
+    left: 25%;
     width: 38vw;
     height: 6vh;
     border-radius: 25px;
@@ -373,7 +373,7 @@ body {
     font-family: cinema;
     color: #000;
     bottom: 15vh;
-    left: 33vw;
+    left: 27%;
     font-size: 7vw;
     z-index: 10000;
   }
