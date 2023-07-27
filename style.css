@@ -241,6 +241,9 @@ body {
     left: 49.5vw;
     }
 @media (max-width: 800px){
+  #wrapper{
+    all: unset;
+  }
   #size-design2{
     font-family: cinema;
     position: absolute;

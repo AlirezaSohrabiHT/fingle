@@ -4,6 +4,7 @@ const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeig
 if (vw<=800){
     var element = document.getElementById("wrapper")
     element.classList.remove("wrapper");
+    console.log("test")
 }
 var myImg = document.getElementById("main-img");
 var m_width = myImg.width;
