@@ -8,6 +8,39 @@
        url('./assets/font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).svg') format('svg');}
 
 
+       
+
+       .angry-animate{
+        -webkit-animation:jump 1s ease 0s 1 normal;
+        -moz-animation:jump 1s ease 0s 1 normal;
+        -ms-animation:jump 1s ease 0s 1 normal;
+        animation:jump 1s ease 0s 1 normal;
+        }
+        
+        @-webkit-keyframes jump{
+        0%{ -webkit-transform:translateY(0); transform:translateY(0); }
+        20%{ -webkit-transform:translateY(0); transform:translateY(0); }
+        40%{ -webkit-transform:translateY(-30px); transform:translateY(-30px); }
+        50%{ -webkit-transform:translateY(0); transform:translateY(0); }
+        60%{ -webkit-transform:translateY(-15px); transform:translateY(-15px); }
+        80%{ -webkit-transform:translateY(0); transform:translateY(0); }
+        100%{ -webkit-transform:translateY(0);transform:translateY(0); }
+        }
+        
+        @keyframes jump{
+        0%{ transform:translateY(0); }
+        20%{ transform:translateY(0); }
+        40%{ transform:translateY(-30px); }
+        50%{ transform:translateY(0); }
+        60%{ transform:translateY(-15px); }
+        80%{ transform:translateY(0); }
+        100%{ transform:translateY(0); }
+        }
+        
+  
+        
+        
+        
 
 
 html,body {
@@ -15,6 +48,11 @@ html,body {
   height:100%;width:100% ;
   overflow: hidden;
 }  
+
+#btn{
+  background:none;
+  border: none;
+}
 
 body {
   background-image: linear-gradient(#FEA201,#FFA200) ;
@@ -109,8 +147,8 @@ body {
 }
 
 #main-img{
-     display: none;
-     position: absolute;
+     display: block;
+     /* position: absolute; */
      border-radius: 54px ;
      left: 37vw;
      top: 32vh;
@@ -120,31 +158,37 @@ body {
      border: none;
      outline: none;
      text-decoration: none;
-     border: 2px solid black;
+     /* border: 2px solid black; */
      /* padding-left: 5px; */
      /* transform: scale(1.5); */
   
   }
-  #box{
-    display: block;
+  #btn-zoom-plus{
     position: absolute;
-    left: 39vw;
-    top: 32vh;
-     width: 21.5vw;    
-     height: 21.5vw;
-     overflow: hidden;
-     background-origin: content-box;
-     border: none;
-     outline: none;
-     text-decoration: none;
-     border-radius: 54px ;
-     /* padding-right: 30px; */
-     border: 2px solid #000;
-     
+    top: 50vh;
+    left: 62vw;
+    background: none;
+    outline: none;
+    border: none;
   }
-iframe img{
-  width: 500px;
-}
+  #btn-zoom-minus{
+    position: absolute;
+    top: 57vh;
+    left: 62vw;
+    background: none;
+    outline: none;
+    border: none;
+  }
+  .wrapper {
+    position: absolute;
+    left: 37vw;
+     top: 32vh;
+    overflow: scroll;
+    max-width: 25vw;
+    max-height: 46vh;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+  }
 /*  
   #main-img:hover {
     transform: scale(1.4);
@@ -155,17 +199,19 @@ iframe img{
 
 #Rectangle-design{
   position: absolute;
-  bottom: 12vh;
+  bottom: 13vh;
   left: 42vw;
   width: 14vw;
   height: 8vh;
   border-radius: 25px;
+  box-shadow: 5px 5px;
+
 }
 #bt-text{
   position: absolute;
   font-family: cinema;
   color: #000;
-  bottom: 13vh;
+  bottom: 14vh;
   left: 44vw;
   font-size: 2.5vw;
 }
@@ -188,12 +234,30 @@ iframe img{
   bottom: 9vh;
   left: 48vw;
   }
+  #size-design2{
+    font-family: cinema;
+    position: absolute;
+    bottom: 9vh;
+    left: 49.5vw;
+    }
 @media (max-width: 800px){
+  #size-design2{
+    font-family: cinema;
+    position: absolute;
+    bottom: 11vh;
+    left: 50.5vw;
+    }
+  #btn-zoom-plus{
+  display: none;
+  }
+  #btn-zoom-minus{
+    display: none;
+
+  }
   #box{
     display: none;
   }
   #main-img{
-    display: block;
     /* background: url(Frame\ 3.jpg)no-repeat center center;  */
     /* background-size: 130% 115%; */
     /* size: 100% 100%; */
@@ -327,45 +391,3 @@ iframe img{
     }
 }
   /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
-  *body {
-    margin: 0;
-  }
-  #navbar {
-    overflow: hidden;
-    background-color: #099;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 20px;
-  }
-  #navbar a {
-    float: left;
-    display: block;
-    color: #666;
-    text-align: center;
-    padding-right: 20px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  #navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  .main {
-    padding: 16px;
-    margin-top: 30px;
-  }
-  .main img {
-    max-width: 100%;
-    height: auto;
-  }
-  .button {
-    width: 300px;
-    height: 60px;
-  }
