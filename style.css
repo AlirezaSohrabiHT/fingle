@@ -183,10 +183,11 @@ body {
     position: absolute;
     left: 37vw;
      top: 32vh;
-    overflow: visible;
+    overflow: hidden;
     max-width: 25vw;
     max-height: 46vh;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     /* border: 2px solid black; */
   }
 /*  
