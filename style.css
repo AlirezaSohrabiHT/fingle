@@ -183,7 +183,7 @@ body {
     position: absolute;
     left: 37vw;
      top: 32vh;
-    overflow: hidden;
+    overflow: scroll;
     max-width: 25vw;
     max-height: 46vh;
     margin: 0;
