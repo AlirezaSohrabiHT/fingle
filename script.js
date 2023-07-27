@@ -1,4 +1,6 @@
-
+var main = document.getElementById("main-img");
+var m_width = main.width;
+var m_height = main.height;
 const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
 const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
 if (vw<=800){
@@ -6,9 +8,7 @@ if (vw<=800){
     element.classList.remove("wrapper");
     console.log("test")
 }
-var myImg = document.getElementById("main-img");
-var m_width = myImg.width;
-var m_height = myImg.height;
+
 var body = document.getElementById("body");
 function ani(){
     console.log(body)
@@ -27,8 +27,8 @@ function zoomin(){
     if(currWidth == 2500) return false;
      else{
         myImg.style.borderRadius = 0;
-        myImg.style.width = (currWidth + 10) + "px";
-        myImg.style.height = (currWidth + 10) + "px";
+        myImg.style.width = (currWidth + 50) + "px";
+        myImg.style.height = (currWidth + 50) + "px";
     } 
     console.log(myImg.width)
 }
@@ -43,8 +43,8 @@ function zoomout(){
         console.log("test")
     }
      else{
-        myImg.style.width = (currWidth - 10) + "px";
-        myImg.style.height = (currWidth - 10) + "px";
+        myImg.style.width = (currWidth - 60) + "px";
+        myImg.style.height = (currWidth - 60) + "px";
     }
     console.log(myImg.width)
 }

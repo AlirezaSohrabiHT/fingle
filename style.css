@@ -135,7 +135,7 @@ body {
   position: absolute;
   /* background: url(assets/material-symbols_airwave.png) no-repeat left; */
   bottom: 0;
-  left: 47vw;
+  left: 46.5vw;
   background-size: auto;
   height: 10vh;
   
@@ -203,8 +203,10 @@ body {
   left: 42vw;
   width: 14vw;
   height: 8vh;
-  border-radius: 25px;
-  box-shadow: 5px 5px;
+  border-radius: 35px;
+  box-shadow: 8px 8px;
+  border: none;
+  text-decoration: none;
 
 }
 #bt-text{
@@ -231,14 +233,16 @@ body {
 #size-design{
   font-family: cinema;
   position: absolute;
-  bottom: 9vh;
-  left: 47vw;
+  bottom: 8.5vh;
+  left: 47.5vw;
+  font-size: 1.5vw;
   }
   #size-design2{
     font-family: cinema;
     position: absolute;
-    bottom: 9vh;
-    left: 48.5vw;
+    bottom: 8.5vh;
+    left: 49.5vw;
+    font-size: 1.5vw;
     }
 @media (max-width: 800px){
   #btn{
