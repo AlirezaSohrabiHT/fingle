@@ -351,7 +351,7 @@ body {
   #BT-design{
     position: absolute;
     bottom: 0;
-    left: 38vw;
+    left: 34vw;
     background-size: auto;
     height: 10vh;
   }
@@ -362,7 +362,7 @@ body {
   #Rectangle-design{
     position: absolute;
     bottom: 14vh;
-    left: 29vw;
+    left: 27vw;
     width: 38vw;
     height: 6vh;
     border-radius: 25px;
@@ -373,7 +373,7 @@ body {
     font-family: cinema;
     color: #000;
     bottom: 15vh;
-    left: 35vw;
+    left: 33vw;
     font-size: 7vw;
     z-index: 10000;
   }
