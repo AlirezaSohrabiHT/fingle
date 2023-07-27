@@ -251,11 +251,19 @@ body {
   #wrapper{
     all: unset;
   }
+  #size-design{
+    font-family: cinema;
+    position: absolute;
+    bottom: 8.5vh;
+    left: 47.5vw;
+    font-size: 3vw;
+    }
   #size-design2{
     font-family: cinema;
     position: absolute;
     bottom: 11vh;
     left: 50.5vw;
+    font-size: 3vw;
     }
   #btn-zoom-plus{
   display: none;
