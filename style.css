@@ -188,8 +188,13 @@ body {
     max-height: 46vh;
     margin: 0;
     padding: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     /* border: 2px solid black; */
   }
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
 /*  
   #main-img:hover {
     transform: scale(1.4);
