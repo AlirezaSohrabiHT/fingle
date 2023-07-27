@@ -274,7 +274,7 @@ body {
     background-origin: content-box;
     /* padding-bottom: 10px; */
     width: 63vw;
-    height: 46vh;
+    height: 48vh;
     /* overflow: hidden; */
     border: none;
     outline: none;
@@ -351,7 +351,7 @@ body {
   #BT-design{
     position: absolute;
     bottom: 0;
-    left: 40vw;
+    left: 38vw;
     background-size: auto;
     height: 10vh;
   }
@@ -362,7 +362,7 @@ body {
   #Rectangle-design{
     position: absolute;
     bottom: 14vh;
-    left: 31vw;
+    left: 29vw;
     width: 38vw;
     height: 6vh;
     border-radius: 25px;
@@ -373,7 +373,7 @@ body {
     font-family: cinema;
     color: #000;
     bottom: 15vh;
-    left: 37vw;
+    left: 35vw;
     font-size: 7vw;
     z-index: 10000;
   }
