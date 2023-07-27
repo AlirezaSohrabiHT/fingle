@@ -232,13 +232,13 @@ body {
   font-family: cinema;
   position: absolute;
   bottom: 9vh;
-  left: 48vw;
+  left: 47vw;
   }
   #size-design2{
     font-family: cinema;
     position: absolute;
     bottom: 9vh;
-    left: 49.5vw;
+    left: 48.5vw;
     }
 @media (max-width: 800px){
   #btn{
@@ -268,8 +268,8 @@ body {
     /* background-size: 130% 115%; */
     /* size: 100% 100%; */
     position: absolute;
-    top: 23vh;
-    left: 19vw;
+    top: 25vh;
+    left: 16vw;
     /* border-radius: 54px ; */
     background-origin: content-box;
     /* padding-bottom: 10px; */
@@ -374,7 +374,7 @@ body {
     font-family: cinema;
     color: #000;
     bottom: 15vh;
-    left: 35vw;
+    left: 34vw;
     font-size: 7vw;
     z-index: 10000;
   }
